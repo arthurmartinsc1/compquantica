@@ -1,0 +1,8 @@
+z = complex(-1,1)
+
+
+K = pow(z,2) + 2*z +2
+
+
+if(K==0):
+    print(" é soluçao da equaçao")
