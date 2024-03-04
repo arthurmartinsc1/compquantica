@@ -1,0 +1,29 @@
+a1 = int(input("digite um valor de numero complexo para a parte real de z1"))
+a2 = int(input("digite a parte imaginaria de z1"))
+z1 = complex(a1,a2)
+
+b1 = int(input("digite um valor de numero complexo para a parte real de z2"))
+b2 = int(input("digite a parte imaginaria de z2"))
+
+
+z2 = complex(b1,b2)
+
+mod1 = abs(z1)
+
+mod2 = abs(z2)
+
+
+z3 = z1*z2
+
+
+mod3 = abs(z3)
+
+
+if(mod1*mod2 == mod3):
+    print(" a propriedade esta correta \n")
+    
+    
+    
+    
+print("teste b:")
+print("|c1+c2| <= |c1|+|c2|", (abs(z1+z2) <= abs(z1)+abs(z2)))
