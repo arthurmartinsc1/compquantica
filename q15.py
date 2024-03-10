@@ -24,6 +24,11 @@ def recebermatriz():
     
     return matriz
 
+
+
+
+
+
 def somar(matriz1,matriz2):
     
     result = []
@@ -77,7 +82,13 @@ for linhas in matrizmultiplicada:
     
     
     
+Matrizinv = np.linalg.inv(matriz_usuario1)
 
+
+for linha in Matrizinv:
+    print("a inversa eh:",linha)
+    
+    
 
     
     
